@@ -1,0 +1,91 @@
+/* General Page Styling */
+body {
+  background: url("Episode 5 GIF by The Simpsons.gif") no-repeat center center fixed;
+  background-size: cover; /* make it fill the whole screen */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Menu Box Styling */
+.main {
+  background: rgba(255, 255, 255, 0.1); /* faint transparent layer */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* modern transparent border */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Safari support */
+  padding: 30px 40px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* optional shadow for depth */
+}
+
+/* Title Styling */
+.title {
+  font-size: 2rem;
+  color: #4b2e2e; /* dark coffee color */
+  margin-bottom: 20px;
+  border-bottom: 2px solid #c7a17a; /* café underline */
+  padding-bottom: 10px;
+}
+
+/* Section Titles */
+.section {
+  font-size: 1.5rem;
+  color: #6b4226; /* warm coffee tone */
+  margin: 20px 0 10px;
+}
+
+/* Menu Items */
+.items {
+  list-style: none; /* remove bullets */
+  padding: 0;
+  margin: 0;
+}
+
+.items li {
+  font-size: 1.1rem;
+  color: #333;
+  margin: 10px 0;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+/* Price Styling */
+.items li span {
+  font-weight: bold;
+  color: #b35c2e; /* accent for prices */
+  margin-left: 10px;
+}
+
+/* Hover Effect */
+.items li:hover {
+  background-color: #fce4d6; /* light coffee highlight */
+  color: #6b4226;
+  cursor: pointer;
+}
+
+/* Responsive Design */
+body {
+  color: #000000; /* default text color black */
+}
+
+.title {
+  color: #000000;
+}
+
+.section {
+  color: #000000;
+}
+
+.items li {
+  color: #000000;
+}
+
+.items li span {
+  color: #000000; /* prices also black */
+}
